@@ -25,21 +25,24 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Company Overview</h2>
           <div className="space-y-6 text-accent-muted text-lg leading-relaxed">
             <p>
-              Crystal Cave Resources has established itself as a leading force in the mining industry, 
-              providing comprehensive solutions that span the entire mining lifecycle. Founded on principles 
-              of excellence, safety, and sustainability, we have built a reputation for delivering results 
-              that exceed expectations.
+              Crystal Cave Resources (Pty) Ltd ("CCR") is a multidisciplinary consulting firm providing
+              integrated mining, geo-services, environmental, social, and digital advisory solutions to the
+              mining, energy, infrastructure, financial, and public sectors. Established in 2024, CCR operates
+              across the full mining life cycle – from exploration and feasibility through operations,
+              rehabilitation, and closure.
             </p>
             <p>
-              Our team of experienced professionals brings together decades of industry knowledge, 
-              cutting-edge technology, and innovative approaches to solve complex mining challenges. 
-              We understand that every mining operation is unique, and we tailor our services to meet 
-              the specific needs of each client.
+              Registered as Crystal Cave Resources (Pty) Ltd and trading as Crystal Cave Resources (CCR), the
+              company is headquartered in Potchefstroom, North-West Province, with operational offices in
+              Klerksdorp, Rustenburg, and Kuruman. This strategic presence within South Africa’s most
+              productive mining corridors enables close proximity to platinum, gold, chrome, and base-metal
+              operations while serving national clients and preparing for broader Pan-African expansion.
             </p>
             <p>
-              From exploration and extraction to processing and distribution, Crystal Cave Resources 
-              offers end-to-end solutions that drive operational efficiency and maximize value for our 
-              clients and stakeholders.
+              CCR delivers bankable, ESG-aligned solutions that meet international standards, addressing both
+              the technical and regulatory requirements of mining projects. We are particularly focused on
+              supporting Small, Medium and Mid-Tier Mining Companies (SMMEs and juniors), while remaining fully
+              capable of servicing Tier-1 mining houses, governments, financiers, and international partners.
             </p>
           </div>
         </div>
@@ -47,12 +50,41 @@ export default function About() {
 
       <Section className="bg-dark-surface">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Our Mission</h2>
-          <p className="text-accent-muted text-lg leading-relaxed mb-8">
-            To be the world's most trusted mining solutions provider by delivering exceptional value, 
-            maintaining the highest safety standards, and driving sustainable practices that benefit 
-            our clients, communities, and the environment.
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Vision & Mission</h2>
+          <div className="space-y-6 text-accent-muted text-lg leading-relaxed mb-8">
+            <div>
+              <h3 className="text-2xl font-semibold text-accent mb-2">Vision</h3>
+              <p>
+                To establish a premier, globally respected consulting firm delivering integrated geo-services
+                and mining solutions that set new benchmarks for technical excellence, ESG performance, and
+                innovation across Africa and emerging markets.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold text-accent mb-2">Mission</h3>
+              <ul className="list-disc list-inside space-y-2">
+                <li>
+                  Deliver efficient, high-quality, and bankable technical solutions using best-in-class
+                  technologies and methodologies.
+                </li>
+                <li>
+                  Provide consistently satisfactory services aligned with international standards and client
+                  expectations.
+                </li>
+                <li>
+                  Build strategic partnerships with mining companies, governments, financiers, and EPC firms to
+                  unlock sustainable resource development.
+                </li>
+                <li>
+                  Contribute meaningfully to youth employment, skills transfer, and transformation.
+                </li>
+                <li>
+                  Create long-term shareholder value through advisory excellence and strategic participation in
+                  mining-related investments.
+                </li>
+              </ul>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="bg-dark-card p-6 rounded-lg border border-dark-card">
@@ -93,31 +125,19 @@ export default function About() {
 
       <Section className="bg-dark-bg">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Our Values</h2>
-          <div className="space-y-6">
-            {[
-              {
-                title: 'Integrity',
-                description: 'We conduct business with honesty, transparency, and ethical practices in all our dealings.',
-              },
-              {
-                title: 'Collaboration',
-                description: 'We believe in building strong partnerships with clients, suppliers, and communities.',
-              },
-              {
-                title: 'Accountability',
-                description: 'We take responsibility for our actions and deliver on our commitments.',
-              },
-              {
-                title: 'Respect',
-                description: 'We value diversity, treat everyone with dignity, and respect the environment we operate in.',
-              },
-            ].map((value, index) => (
-              <div key={index} className="border-l-4 border-accent pl-6 py-2">
-                <h3 className="text-xl font-semibold text-accent mb-2">{value.title}</h3>
-                <p className="text-accent-muted">{value.description}</p>
-              </div>
-            ))}
+          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Why Choose CCR?</h2>
+          <div className="space-y-6 text-accent-muted text-lg leading-relaxed">
+            <p>
+              CCR addresses a critical structural gap in the mining sector: the lack of integrated, execution-focused
+              technical, regulatory, ESG, and project delivery support for junior miners, exploration companies, and
+              emerging operators seeking to become bankable, compliant, and operationally efficient enterprises.
+            </p>
+            <p>
+              With our headquarters in Potchefstroom and operational offices in Klerksdorp, Rustenburg, and Kuruman,
+              we are strategically embedded within South Africa’s most productive mining corridors. This ensures rapid
+              response, strong local insight, and cost-efficient delivery for clients across South Africa and, in time,
+              the broader African continent.
+            </p>
           </div>
         </div>
       </Section>

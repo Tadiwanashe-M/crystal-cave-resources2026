@@ -15,13 +15,13 @@ export default function Home() {
       <Section className="bg-dark-bg">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-accent mb-6">
-            Leading Mining Solutions Provider
+            Integrated Mining, Geo-Services & ESG Solutions
           </h2>
           <p className="text-lg text-accent-muted leading-relaxed">
-            Crystal Cave Resources is a premier mining solutions company dedicated to delivering 
-            excellence across all aspects of mining operations. With decades of combined experience, 
-            we provide comprehensive services that drive efficiency, safety, and sustainability in 
-            the mining industry.
+            Crystal Cave Resources (Pty) Ltd (CCR) is an integrated mining, geo-services, and environmental
+            consulting company providing end-to-end technical, ESG, and digital advisory solutions across the
+            full mining life cycle. Headquartered in Potchefstroom with operational offices in Klerksdorp,
+            Rustenburg, and Kuruman, CCR serves clients across South Africa with a growing Pan-African footprint.
           </p>
         </div>
       </Section>

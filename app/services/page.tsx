@@ -4,36 +4,39 @@ import Section from '@/components/Section'
 export default function Services() {
   const services = [
     {
-      title: 'Mining Operations Management',
-      description: 'Comprehensive management of mining operations including planning, execution, and optimization. Our experienced teams ensure efficient resource extraction while maintaining the highest safety and environmental standards.',
+      title: 'Geological & Resource Services',
+      description:
+        'End-to-end geological and resource solutions including exploration planning, geological mapping, core logging, sampling, drilling supervision, orebody and geological modelling, mineral resource estimation, and prefeasibility/feasibility study support.',
     },
     {
-      title: 'Exploration & Development',
-      description: 'Advanced geological exploration services using cutting-edge technology to identify and assess mineral deposits. We provide complete development planning from discovery to production.',
+      title: 'Environmental, Social & Regulatory (ESG)',
+      description:
+        'Comprehensive ESG services including EIAs, EMPrs, mining and prospecting rights applications, IWULA/water use licences, public participation and stakeholder engagement, environmental auditing and compliance monitoring, ISO 14001:2015 audits, and social impact assessments.',
     },
     {
-      title: 'Equipment & Machinery',
-      description: 'Supply and maintenance of state-of-the-art mining equipment including excavators, drills, haul trucks, and processing machinery. We offer both sales and rental options.',
+      title: 'Rock Engineering',
+      description:
+        'Rock engineering support comprising weekly, monthly, and quarterly inspections, incident and accident investigations, monthly planning and design input, and risk assessments to ensure safe, compliant operations.',
     },
     {
-      title: 'Processing & Refinement',
-      description: 'Expert mineral processing and refinement services to maximize value from extracted materials. Our facilities utilize advanced technologies for efficient processing.',
+      title: 'Mine Planning',
+      description:
+        'Life-of-Mine (LoM) planning services across short, medium, and long-term horizons, including open-pit and underground mine design and optimisation, production scheduling, and ore blending strategies.',
     },
     {
-      title: 'Safety & Compliance',
-      description: 'Comprehensive safety management systems and regulatory compliance services. We ensure all operations meet or exceed industry standards and local regulations.',
+      title: 'Water, Tailings & Geotechnical Services',
+      description:
+        'Hydrogeological investigations, hydrology and surface water studies, water balance modelling and water management plans, TSF design and audits, GISTM conformance, geotechnical investigations, problem soil assessments, and dam safety reviews and rehabilitation.',
     },
     {
-      title: 'Environmental Management',
-      description: 'Sustainable mining practices including land reclamation, water management, and environmental monitoring. We are committed to minimizing environmental impact.',
+      title: 'Rehabilitation, Closure & Sustainability',
+      description:
+        'Mine rehabilitation planning and optimisation, closure planning and costing, long-term erosion and land-use modelling, wetland delineation and rehabilitation, contaminated land assessments, and environmental risk reduction strategies.',
     },
     {
-      title: 'Technical Consulting',
-      description: 'Strategic consulting services to optimize operations, improve efficiency, and solve complex technical challenges. Our experts provide actionable insights.',
-    },
-    {
-      title: 'Training & Development',
-      description: 'Comprehensive training programs for mining personnel covering safety, operations, and best practices. We invest in building skilled, knowledgeable teams.',
+      title: 'Digital Innovation & 4IR Solutions',
+      description:
+        'Digital and 4IR solutions including GIS mapping and spatial analysis, 3D geological models and digital twins, VR training environments, simulation of mining operations and process flows, and digital risk and scenario analysis.',
     },
   ]
 
@@ -48,11 +51,11 @@ export default function Services() {
       <Section className="bg-dark-bg">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
-            Complete Mining Solutions
+            Core Service Lines
           </h2>
           <p className="text-accent-muted text-lg max-w-2xl mx-auto">
-            From exploration to extraction, processing to distribution, we offer end-to-end services 
-            that cover every aspect of mining operations.
+            CCR provides integrated, bankable technical and ESG solutions across geological, environmental,
+            engineering, planning, and digital domains – supporting clients from exploration through to closure.
           </p>
         </div>
 
