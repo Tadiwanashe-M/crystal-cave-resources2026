@@ -38,25 +38,39 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold text-accent mb-2">Phone</h3>
-                  <p className="text-accent-muted">+1 (555) 123-4567</p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-accent mb-2">Address</h3>
+                  <h3 className="text-xl font-semibold text-accent mb-2">Primary Contacts</h3>
                   <p className="text-accent-muted">
-                    Mining District<br />
-                    Industrial Zone<br />
-                    City, State 12345
+                    Klerksdorp: +27 73 489 9672<br />
+                    Rustenburg: +27 84 974 0527<br />
+                    Northern Cape: +27 66 211 1834
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold text-accent mb-2">Business Hours</h3>
+                  <h3 className="text-xl font-semibold text-accent mb-2">Head Office</h3>
                   <p className="text-accent-muted">
-                    Monday - Friday: 8:00 AM - 6:00 PM<br />
-                    Saturday: 9:00 AM - 1:00 PM<br />
-                    Sunday: Closed
+                    2306 Motsoenyane Street<br />
+                    Klerksdorp, North West, 2550<br />
+                    South Africa
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold text-accent mb-2">North West Branches</h3>
+                  <p className="text-accent-muted">
+                    Klerksdorp (Head Office)<br />
+                    2306 Motsoenyane Street, Klerksdorp, North West, 2550<br />
+                    <br />
+                    Rustenburg<br />
+                    1438 Khumalo Street, Rustenburg, North West, 0299
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold text-accent mb-2">Northern Cape Branch</h3>
+                  <p className="text-accent-muted">
+                    Kuruman<br />
+                    House No E20B, Kuruman, Northern Cape, 8460
                   </p>
                 </div>
               </div>
