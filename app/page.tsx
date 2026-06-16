@@ -74,7 +74,6 @@ export default function Home() {
       <Hero
         title="Crystal Cave Resources"
         subtitle="Integrated mining, geo-services, and ESG solutions — delivering bankable excellence across the full mining life cycle."
-        eyebrow="South Africa · Pan-African Ambition"
         backgroundImage="/Images/image1.jpg"
         primaryCta={{ label: 'Explore Our Services', href: '/services' }}
         secondaryCta={{ label: 'Partner With Us', href: '/sponsors' }}
