@@ -1,5 +1,7 @@
 import Hero from '@/components/Hero'
 import Section from '@/components/Section'
+import SectionHeading from '@/components/SectionHeading'
+import Link from 'next/link'
 
 export default function Services() {
   const services = [
@@ -49,21 +51,17 @@ export default function Services() {
       />
 
       <Section className="bg-dark-bg">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-4">
-            Core Service Lines
-          </h2>
-          <p className="text-accent-muted text-lg max-w-2xl mx-auto">
-            CCR provides integrated, bankable technical and ESG solutions across geological, environmental,
-            engineering, planning, and digital domains – supporting clients from exploration through to closure.
-          </p>
-        </div>
+        <SectionHeading
+          eyebrow="Our Expertise"
+          title="Core Service Lines"
+          subtitle="CCR provides integrated, bankable technical and ESG solutions across geological, environmental, engineering, planning, and digital domains – supporting clients from exploration through to closure."
+        />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-dark-card p-8 rounded-lg hover:bg-dark-card/80 transition-colors border border-dark-card hover:border-accent/20"
+              className="card-premium"
             >
               <h3 className="text-2xl font-semibold text-accent mb-4">{service.title}</h3>
               <p className="text-accent-muted leading-relaxed">{service.description}</p>
@@ -80,12 +78,9 @@ export default function Services() {
           <p className="text-accent-muted text-lg mb-8">
             Contact us today to discuss how our services can support your mining operations.
           </p>
-          <a
-            href="/contact"
-            className="inline-block px-8 py-3 bg-accent text-dark-bg font-semibold rounded hover:bg-accent-muted transition-colors"
-          >
+          <Link href="/contact" className="btn-primary">
             Contact Us
-          </a>
+          </Link>
         </div>
       </Section>
     </>

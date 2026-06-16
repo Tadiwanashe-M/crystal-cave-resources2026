@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero'
 import Section from '@/components/Section'
+import SectionHeading from '@/components/SectionHeading'
 import Image from 'next/image'
 
 export default function About() {
@@ -22,7 +23,12 @@ export default function About() {
               className="w-full h-auto object-cover"
             />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-accent mb-8">Company Overview</h2>
+          <SectionHeading
+            eyebrow="Company Profile"
+            title="Company Overview"
+            centered={false}
+            className="mb-8"
+          />
           <div className="space-y-6 text-accent-muted text-lg leading-relaxed">
             <p>
               Crystal Cave Resources (Pty) Ltd ("CCR") is a multidisciplinary consulting firm providing
@@ -87,7 +93,7 @@ export default function About() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-            <div className="bg-dark-card p-6 rounded-lg border border-dark-card">
+            <div className="card-premium">
               <h3 className="text-xl font-semibold text-accent mb-4">Safety First</h3>
               <p className="text-accent-muted">
                 We prioritize the safety and well-being of our employees, partners, and communities 
@@ -96,7 +102,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-dark-card p-6 rounded-lg border border-dark-card">
+            <div className="card-premium">
               <h3 className="text-xl font-semibold text-accent mb-4">Innovation</h3>
               <p className="text-accent-muted">
                 We embrace cutting-edge technology and innovative methodologies to enhance efficiency, 
@@ -104,7 +110,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-dark-card p-6 rounded-lg border border-dark-card">
+            <div className="card-premium">
               <h3 className="text-xl font-semibold text-accent mb-4">Sustainability</h3>
               <p className="text-accent-muted">
                 We are committed to responsible mining practices that protect the environment and 
@@ -112,7 +118,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-dark-card p-6 rounded-lg border border-dark-card">
+            <div className="card-premium">
               <h3 className="text-xl font-semibold text-accent mb-4">Excellence</h3>
               <p className="text-accent-muted">
                 We strive for excellence in every aspect of our operations, from project planning 

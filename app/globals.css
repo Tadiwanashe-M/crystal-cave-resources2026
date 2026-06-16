@@ -3,8 +3,58 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-dark-bg text-accent;
+    @apply bg-dark-bg text-accent antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-accent;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-gold text-dark-bg font-semibold rounded-md
+      hover:bg-gold-light transition-all duration-300 shadow-gold hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-3 border border-accent/30 text-accent font-semibold rounded-md
+      hover:border-gold hover:text-gold transition-all duration-300;
+  }
+
+  .btn-outline-gold {
+    @apply inline-flex items-center justify-center px-8 py-3 border border-gold/50 text-gold font-semibold rounded-md
+      hover:bg-gold/10 hover:border-gold transition-all duration-300;
+  }
+
+  .card-premium {
+    @apply bg-dark-card/80 backdrop-blur-sm p-8 rounded-xl border border-white/5
+      hover:border-gold/20 hover:shadow-card-hover transition-all duration-300 hover:-translate-y-1;
+  }
+
+  .section-eyebrow {
+    @apply text-gold text-sm font-semibold uppercase tracking-widest mb-3;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-accent mb-4 text-balance;
+  }
+
+  .section-subtitle {
+    @apply text-accent-muted text-lg md:text-xl max-w-3xl leading-relaxed;
+  }
+
+  .gold-divider {
+    @apply w-16 h-1 bg-gold rounded-full mx-auto mb-6;
+  }
+
+  .gold-divider-left {
+    @apply w-16 h-1 bg-gold rounded-full mb-6;
   }
 }
 

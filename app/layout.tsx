@@ -4,11 +4,12 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Crystal Cave Resources - Mining Solutions',
-  description: 'Leading provider of mining solutions and resources',
+  title: 'Crystal Cave Resources | Integrated Mining & ESG Solutions',
+  description:
+    'Crystal Cave Resources delivers integrated mining, geo-services, and ESG consulting across South Africa. Partner with us for bankable technical solutions and sustainable resource development.',
 }
 
 export default function RootLayout({
@@ -18,11 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${inter.variable}`}>
         <Navbar />
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>

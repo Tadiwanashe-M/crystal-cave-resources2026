@@ -149,10 +149,7 @@ export default function Contact() {
                     ></textarea>
                   </div>
 
-                  <button
-                    type="submit"
-                    className="w-full px-8 py-3 bg-accent text-dark-bg font-semibold rounded hover:bg-accent-muted transition-colors"
-                  >
+                  <button type="submit" className="btn-primary w-full">
                     Send Message
                   </button>
                 </form>
